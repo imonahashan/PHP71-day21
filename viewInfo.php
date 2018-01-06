@@ -36,7 +36,7 @@ $result = StudentInfo::viewStudentsInfo();
                 <th scope="col">E-mail</th>
                 <th scope="col">Mobile no</th>
                 <th scope="col">Present Address</th>
-                <th scope="col">Action</th>
+                <th scope="col" colspan-2>Action</th>
             </tr>
             </thead>
             <?php while ($student = mysqli_fetch_assoc($result)){ ?>
